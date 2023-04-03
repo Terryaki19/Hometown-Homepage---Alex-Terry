@@ -1,0 +1,57 @@
+body {
+    color: black;
+    text-shadow: black 0px 0px 2px;
+    background: whitesmoke;
+    display: block;
+    margin: 8px;
+}
+
+.header {
+    text-align: center;
+    background-image: url(images/Tamworth-Castle-Ground.jpeg);
+    background-size: cover;
+    color: whitesmoke;
+    max-height: 300px;
+    background-position: center center;
+    opacity: 90%;
+    font-weight: bolder;
+}
+
+#headertext {
+    color:white;
+    text-shadow: 0 0 10px black;
+}
+
+.main-content {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+    height: auto;
+    width: auto;
+}
+
+.images {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: auto;
+}
+.canal {
+    max-height: 100px;
+}
+footer {
+    text-align: center;
+    background-image: url(images/Tamworth-Castle-Ground.jpeg);
+    background-size: cover;
+    color: whitesmoke;
+    max-height: 80px;
+    background-position: center center;
+    opacity: 90%;
+}
+#social-tags {
+    color:white;
+    text-shadow: 0 0 10px black;
+    font-size: 30px;
+    font-weight: bolder;
+}
